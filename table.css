@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: auto;
+   
+  }
+
+  th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+  }
+  tr{
+    font-size: 20px;
+  }
+  
+  th {
+    background-color: lavenderblush;
+    font-size: 25px;
+    color:red;
+  }
+  tr:nth-child(even)
+  {
+    background-color: lightgoldenrodyellow;
+  }
+
+  button
+  {
+    background-color:palevioletred;
+    color: white;
+    width:160px;
+    height:50px;
+    font-size: 18px;
+    margin-left: 500px;
+  }
+  h2
+  {
+    margin-left:500px;
+  }
